@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Solutions
+comment0.text=\n\ There\ is\ a\ collection\ of\ strings\ (\ There\ can\ be\ multiple\ occurences\ of\ a\ \n\ particular\ string\ ).\ Each\ string's\ length\ is\ no\ more\ than\ characters.\ \n\ There\ are\ also\ queries.\ For\ each\ query,\ you\ are\ given\ a\ string,\ and\ you\ need\ to\ \n\ find\ out\ how\ many\ times\ this\ string\ occurs\ in\ the\ given\ collection\ of\ strings.\ \n\n\ @author\ (Aguas,\ M)\n\ @version\ (11\ JULY\ 2017)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

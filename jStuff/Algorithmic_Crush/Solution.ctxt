@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Solution
+comment0.text=\n\ You\ are\ given\ a\ list\ of\ size\ ,\ initialized\ with\ zeroes.\ You\ have\ to\ perform\ operations\n\ on\ the\ list\ and\ output\ the\ maximum\ of\ final\ values\ of\ all\ the\ elements\ in\ the\ list.\ \n\ For\ every\ operation,\ you\ are\ given\ three\ integers\ ,\ and\ and\ you\ have\ to\ add\ value\ to\ \n\ all\ the\ elements\ ranging\ from\ index\ to\ (both\ inclusive).\n\ \nInput\ Format\n\nFirst\ line\ will\ contain\ two\ integers\ and\ separated\ by\ a\ single\ space.\nNext\ lines\ will\ contain\ three\ integers\ ,\ and\ separated\ by\ a\ single\ space.\nNumbers\ in\ list\ are\ numbered\ from\ to\ .\ \n\n\ @author\ (Aguas,\ m)\n\ @version\ (12\ JULY\ 2017)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
