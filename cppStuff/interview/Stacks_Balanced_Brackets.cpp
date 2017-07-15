@@ -19,14 +19,15 @@
    Given strings of brackets, determine whether each sequence of brackets is balanced. If a string 
    is balanced, print YES on a new line; otherwise, print NO on a new line.
    */
+
 #include <iostream>
 #include <stack>
 #include <string>
 
 // pre - string of brackets is passed to the function
 // post - returns true if brackets are balanced else returns false
-bool is_balanced(std::string expression) 
-{
+bool is_balanced(std::string expression)
+{   
     std::stack<char> st;
     for( char c : expression )
     {
@@ -37,12 +38,18 @@ bool is_balanced(std::string expression)
             if ( c == '}' && !st.empty() )
                 if( st.top() == '{' )
                     st.pop();
+                else 
+                    return 0;
             else if ( c == ')' && !st.empty() )
-                if (st.top() == '(' ) 
+                if (st.top() == '(' )
                     st.pop();
+                else 
+                    return 0;
             else if ( c == ']' && !st.empty() )
                 if( st.top() == '[' )
                     st.pop();
+                else 
+                    return 0;
             else
                 return 0;
         }
@@ -64,8 +71,7 @@ int main()
         bool answer = is_balanced(expression);
         if(answer)
             std::cout << "YES\n";
-        else 
-            std::cout << "NO\n";
+        else std::cout << "NO\n";
     }
     return 0;
 }
