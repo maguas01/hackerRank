@@ -30,18 +30,12 @@ def is_matched(expression):
              if ( c is '}' and len(stack) != 0 ) :
                  if( stack[0] is '{' ) :
                      stack.pop(0)
-                 else :
-                     return False
              elif ( c is ')' and len(stack) != 0 ) :
                  if ( stack[0] is '(' ) :
                      stack.pop(0)
-                 else :
-                     return False
              elif ( c is ']' and len(stack) != 0 ) :
                  if( stack[0] is '[' ) :
                      stack.pop(0)
-                 else :
-                     return False
              else :
                  return False
     if( len(stack) == 0 ):
