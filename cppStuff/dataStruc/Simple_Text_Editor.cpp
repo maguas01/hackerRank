@@ -12,6 +12,7 @@ In this challenge, you must implement a simple text editor. Initially, your edit
 
 
 /*
+ // without using a class
  
 #include <string>
 #include <iostream>
@@ -60,6 +61,7 @@ int main() {
 
 */
 
+//using a class
 
 #include <string>
 #include <iostream>
