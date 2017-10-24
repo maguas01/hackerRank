@@ -4,8 +4,7 @@
 
 using namespace std;
 
-bool ransom_note(vector<string> & magazine, vector<string> & ransom) 
-{    
+bool ransom_note(vector<string> & magazine, vector<string> & ransom){    
     map<string, int> mag;
     map<string, int> ran;
 
@@ -15,12 +14,10 @@ bool ransom_note(vector<string> & magazine, vector<string> & ransom)
         ran[j]++;
 
     for(int i = 0; i < ransom.size(); i++)
-    {
         if(mag[ ransom[i] ] < ran[ ransom[i] ])
             return false;
-    }
+    
     return true;
-
 }
 
 int main(){
