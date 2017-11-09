@@ -46,7 +46,6 @@ public:
 		heapifyDown();
 		return frontElement;
 	} 
-	
 private:
 	std::vector<T>* v;
 	// pre - index > 0
